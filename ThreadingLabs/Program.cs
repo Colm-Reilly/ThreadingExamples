@@ -19,7 +19,6 @@ namespace ThreadingLabs
             Console.ReadLine();
         }
 
-
         public static void Incrementer()
         {
             t2.Join();
@@ -43,6 +42,5 @@ namespace ThreadingLabs
 
             Console.WriteLine("Decrementer is now finished.");
         }
-
     }
 }
