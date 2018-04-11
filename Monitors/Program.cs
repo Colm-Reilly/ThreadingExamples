@@ -17,7 +17,6 @@ namespace Monitors
         static Thread t1 = new Thread(new ThreadStart(IncrementNumericField));
         static Thread t2 = new Thread(new ThreadStart(DecrementNumericField));
 
-
         static void Main(string[] args)
         {
             Console.WriteLine("Numeric field initial value = " + numericField);
@@ -30,7 +29,6 @@ namespace Monitors
             ModifyNumericField(20);  //is this a good idea?  
 
             Console.ReadLine();  //we need this so the console does not disappear
-
         }
 
         public static void IncrementNumericField()
@@ -83,7 +81,6 @@ namespace Monitors
                     Console.WriteLine("Increment = " + numericField);
                 }
             }
-
             ////
         }
 
@@ -152,15 +149,5 @@ namespace Monitors
             numericField = newValue;
             Console.WriteLine("Numeric field modified in the main() = " + numericField);
         }
-
-
-
-
-
-
-
-
-
-
     }
 }
