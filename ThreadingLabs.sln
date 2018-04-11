@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClockTutorial", "ClockTutor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitorPool", "MonitorPool\MonitorPool.csproj", "{F480366E-0717-45F6-A9C1-544327B94A37}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerThreadStaticFields", "PerThreadStaticFields\PerThreadStaticFields.csproj", "{FDACE696-2EF1-4177-91F4-17C9574C3175}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F480366E-0717-45F6-A9C1-544327B94A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F480366E-0717-45F6-A9C1-544327B94A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F480366E-0717-45F6-A9C1-544327B94A37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDACE696-2EF1-4177-91F4-17C9574C3175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDACE696-2EF1-4177-91F4-17C9574C3175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDACE696-2EF1-4177-91F4-17C9574C3175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDACE696-2EF1-4177-91F4-17C9574C3175}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
